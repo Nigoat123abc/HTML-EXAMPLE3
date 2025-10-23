@@ -1,0 +1,72 @@
+/* Set base styles */
+body {
+  margin: 0; /* Remove default browser margin */
+  font-family: 'Poppins', sans-serif; /* Clean modern font */
+  background-color: #0d0d0d; /* Dark background */
+  color: white; /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height screen */
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Container for the leaderboard */
+.leaderboard-container {
+  max-width: 400px; /* Keep content narrow */
+  width: 90%;
+}
+
+/* Page title */
+h1 {
+  font-size: 2.5rem;
+  color: #ff4500; /* Roblox-style orange */
+  margin-bottom: 5px;
+}
+
+/* Page description */
+p {
+  color: #ccc; /* Light gray */
+  margin-bottom: 30px;
+}
+
+/* Individual player card */
+.leaderboard-card {
+  background-color: #1e1e1e; /* Dark card */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.2); /* Soft orange glow */
+}
+
+/* Player rank styling */
+.player-rank {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #ff6347; /* Highlight color */
+}
+
+/* Player avatar styling */
+.leaderboard-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Circular avatar */
+  margin-right: 15px;
+}
+
+/* Player name and stats container */
+.player-info h2 {
+  margin: 0;
+  color: #ff69b4; /* Bright highlight for names */
+  font-size: 1.2rem;
+}
+
+.player-info p {
+  margin: 5px 0 0 0;
+  color: #ccc;
+  font-size: 0.9rem;
+}
